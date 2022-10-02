@@ -1,6 +1,6 @@
 # Sử dụng Swiper với Vuejs
 ## Cài đặt swiper vào dự án
-`-> npm i swiper`
+`install -> npm i swiper`
 ## Sử dụng 2 componet quan trọng là `Swiper` và `Swiper-Slide`
 ```
 <template>
@@ -73,7 +73,7 @@
     * `delay: 2000` -> sau 2s slider sẽ chuển một cách tự động quá slide khác
     * `disableOnInteraction: false`-> Khi người dùng tương tác với slider thì autoplay sẽ vẫn khởi chạy sau mỗi lần tương tác, để thay đổi hãy sửa lại thành true(default value)
     * `pauseOnMouseEnter: true` -> Khi người dùng di chuyển con trỏ chuột vào thành phần slide thì thuộc tính autoplay sẽ không được kích hoạt, mục đích để tránh trường hợp khi người dùng đang xem sản phẩm trên slide mà bị next đi slide khác
-* `:breakpoints="{ width: {key: value} }` -> Responsive slider 
+* `:breakpoints="{ width: {key: value} }` -> Responsive slider
     * `width` -> Là chiều ngang màn hình 
     * `key: value` -> Các thuộc tính cần thay đổi
     * `Ví dụ` -> {920: {slidesPerView: 4, spaceBetween: 15}} -> Slider sẽ hiển thị 4 slide và khoảng cách giữa chúng là 15px khi màn hình có width>=920
