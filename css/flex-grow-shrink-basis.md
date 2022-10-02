@@ -31,7 +31,7 @@
     * `flex-item-2` = (1/2) * 400px = 200px
     * Vậy `flex-item-1` và `flex-item-2` sẽ được cộng thêm 200px
     * Cộng thêm width ban đầu thì sẽ chiếm trọn chiều ngang của `flex-container`
-* `Flex Shrink` có công thức tương tự như `Flex grow` nhưng `Flex-space` sẽ được tính ngược lại
-    ** `flex-space` = Tổng các width `flex-item` - width của `flex-container`
-    ** Vì bản chất là muốn các `flex-item` co lại để vừa với width của `flex-container`
+* `Flex Shrink` có công thức tương tự như `Flex grow` nhưng `flex-space` sẽ được tính ngược lại
+    * `flex-space` = Tổng các width `flex-item` - width của `flex-container`
+    * Vì bản chất là muốn các `flex-item` co lại để vừa với width của `flex-container`
 
