@@ -23,14 +23,13 @@
 * Lúc này width của `flex-item-1` và `flex-item-2` sẽ không còn là 200px và 400px như trước nữa mà sẽ thay đổi thành 300px và 500px -> Vừa đủ với width của `flex-container`
 * Vậy tại sao flexbox lại làm được điều đó ?
 * Dựa trên công thức: `flex-item` = (`flex-grow-item`/`flex-grow-total`) * `flex-space` 
-    ** với `flex-space` sẽ là width của `flex-container` - tổng của các width `flex-item`
-    ** với `flex-grow-total` là tổng các giá trị của flex-grow của mỗi item ví dụ này 
-    `flex-grow-total` là 2
-    ** với `flex-grow-item` là giá trị `flex-grow` của item ví dụ này là 1
-    ** `flex-item-1` = (1/2) * 400px = 200px
-    ** `flex-item-2` = (1/2) * 400px = 200px
-    ** Vậy `flex-item-1` và `flex-item-2` sẽ được cộng thêm 200px
-    ** Cộng thêm width ban đầu thì sẽ chiếm trọn chiều ngang của `flex-container`
+        ** với `flex-space` sẽ là width của `flex-container` - tổng của các width `flex-item`
+        ** với `flex-grow-total` là tổng các giá trị của flex-grow của mỗi item ví dụ này `flex-grow-total` là 2
+        ** với `flex-grow-item` là giá trị `flex-grow` của item ví dụ này là 1
+        ** `flex-item-1` = (1/2) * 400px = 200px
+        ** `flex-item-2` = (1/2) * 400px = 200px
+        ** Vậy `flex-item-1` và `flex-item-2` sẽ được cộng thêm 200px
+        ** Cộng thêm width ban đầu thì sẽ chiếm trọn chiều ngang của `flex-container`
 * `Flex Shrink` có công thức tương tự như `Flex grow` nhưng `Flex-space` sẽ được tính ngược lại
     ** `flex-space` = Tổng các width `flex-item` - width của `flex-container`
     ** Vì bản chất là muốn các `flex-item` co lại để vừa với width của `flex-container`
